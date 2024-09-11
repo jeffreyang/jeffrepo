@@ -1,0 +1,10 @@
+name: my-test-workflow
+on: workflow_dispatch
+jobs:
+  first-job-abc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greeting
+        run: echo "kumusta na?"
+      - name: Print ByeBye
+        run: echo "babay"
